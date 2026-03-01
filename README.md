@@ -1,16 +1,44 @@
-# React + Vite
+# Dhosti – Global Workforce Solutions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dhosti is a comprehensive corporate website built for **Dhosti Global Workforce Solutions Pvt Ltd**, a premium staffing and recruitment agency. The application showcases the company's variety of services, its global reach, and contact information, offering a seamless user experience backed by a modern frontend tech stack.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Routing**: React Router DOM (v6)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Heroicons / Custom SVGs
 
-## React Compiler
+## 📂 Project Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project has been architected to ensure clean separation of concerns:
 
-## Expanding the ESLint configuration
+- `src/components/` - Contains globally reusable UI elements like the `FloatingNavbar`, `Footer`, `ServiceFooter`, and `LogoIntro` animation.
+- `src/pages/` - House the dedicated route views.
+  - `HomePage/` - The landing page sections (`Hero`, `CTA`, etc.)
+  - Service pages like `ITOutsourcing`, `CloudSolutions`, `HealthcareBPO`, etc.
+  - Informational pages like `ContactPage`, `TeamPage`, and standard legal pages (`PrivacyPolicy`, `Terms`, `Cookies`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Getting Started
+
+To run the application locally on your machine:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Brand Guidelines
+- **Primary Colors**: Forest Green (`#2D6A27`), Dark Green (`#233824`)
+- **Accent Color**: Vibrant Orange (`#F5A023`)
+- **Typography**: Uses modern, readable sans-serif fonts like *Inter*, *Outfit*, and *Nunito* for display text.
